@@ -1,0 +1,17 @@
+a=int(input("enter a"))
+b=int(input("enter b"))
+if(a==b):
+    print('both are equal')
+elif(a>b):
+    print("a is greater than b")
+elif(a<b):
+    print("b is greater than b")
+else:    
+    print("both are not equal")
+out put:
+enter a 2
+enter b 4
+both are not equal
+enter a 5
+enter b 7
+b is greater than b
