@@ -1,0 +1,45 @@
+soap=20
+sugar=100
+teapowder=30
+wheatflour=40
+salt=30
+Cust_name=input("enter name");
+cust_phno=int(input("enter phno"))
+so=int(input("no of soap packets"))
+su=int(input("no of sugar packets"))
+tea=int(input("no of tea powder packets"))
+wh=int(input("no of wheatflour packets"))
+sa=int(input("no of salt packets"))
+bill=(soap*so)+(sugar*su)+(teapowder*tea)+(wheatflour*wh)+(salt*sa)
+print(bill)
+if bill>5000:
+    dis=bill*(10/100)
+    print(dis)
+elif bill>3000:
+    dis=bill*(8/100)
+    print(dis)
+elif bill>2000:
+    dis=bill*(5/100)
+    print(dis)
+elif bill>1000:
+    dis=bill*(3/100)
+    print(dis)
+elif bill>3000:
+    tax=bill*(10/100)
+    print(tax)
+else:
+    tax=bill*(18/100)
+    print(tax)
+  out put:
+  enter name hema sri
+enter phno 7875435678
+no of soap packets 7
+no of sugar packets8
+no of tea powder packets7
+no of wheatflour packets5
+no of salt packets3
+1440
+43.199999999999996
+    
+    
+    
